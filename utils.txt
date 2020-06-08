@@ -1,1 +1,1 @@
-utility functions for the software version 5
+utility functions for the software version XYZ
