@@ -13,11 +13,11 @@ import fitz
 from fitz.utils import insertImage
 
 #importing from excel
-Panel_data = pd.read_excel("D:\Ken related\HazCom_students\Project\interface\\Haz_cum.xlsm","Panel_Data")
+Panel_data = pd.read_excel("D:\Ken related\GIT\Git again\Haz_cum.xlsm","Panel_Data")
 Panel_data_headings = list(Panel_data)
-Precaution = pd.read_excel("D:\Ken related\HazCom_students\Project\interface\\Haz_cum.xlsm","Precaution",index_col=0, header = 0)
+Precaution = pd.read_excel("D:\Ken related\GIT\Git again\\Haz_cum.xlsm","Precaution",index_col=0, header = 0)
 Precaution_headings = list(Precaution)
-Mitigation = pd.read_excel("D:\Ken related\HazCom_students\Project\interface\\Haz_cum.xlsm","Mitigation", index_col=0, header = 0)
+Mitigation = pd.read_excel("D:\Ken related\GIT\Git again\\Haz_cum.xlsm","Mitigation", index_col=0, header = 0)
 Mitigation_headings = list(Mitigation)
 
 #Headers for the pdf files
